@@ -1,0 +1,20 @@
+{
+  "name": "liff-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "2.22.2",
+    "vue": "3.3.4"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.22.10",
+    "@vitejs/plugin-vue": "4.3.1",
+    "typescript": "5.1.6",
+    "vite": "4.4.9",
+    "vue-tsc": "1.8.8"
+  }
+}
