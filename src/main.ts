@@ -1,4 +1,7 @@
+import 'element-plus/theme-chalk/dark/css-vars.css';
+import 'element-plus/dist/index.css';
 import { createApp } from 'vue';
-import App from './App.vue';
+import ElementPlus from 'element-plus';
+import Scrn from './views/Scrn.vue';
 
-createApp(App).mount('#app');
+createApp(Scrn).use(ElementPlus).mount('#scrn');
