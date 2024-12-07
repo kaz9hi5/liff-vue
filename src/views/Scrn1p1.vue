@@ -13,7 +13,11 @@
         :type="item2.type"
         :effect="item2.effect"
         round
+<<<<<<< HEAD
         @click="choiceBadge($event,idx1,idx2)"
+=======
+        @click="onClick($event,idx1,idx2)"
+>>>>>>> 90919639b47510260a8647dc76f1730e5f4998c7
       >
         {{ item2.label.substring(8) }}日
         <el-badge

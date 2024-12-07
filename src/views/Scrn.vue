@@ -79,7 +79,11 @@
       </el-button>
     </div>
   </el-form>
+<<<<<<< HEAD
   <!-- App / -->
+=======
+  <App />
+>>>>>>> 90919639b47510260a8647dc76f1730e5f4998c7
 </template>
 
 <script lang="ts" setup>
@@ -95,11 +99,19 @@ const onSubmit = (formEl) => {
 </script>
 
 <script lang="ts">
+<<<<<<< HEAD
 import { ElForm,ElDivider,ElIcon,ElButton,ElNotification } from 'element-plus';
 import Scrn1p1 from './Scrn1p1.vue';
 import Scrn1p2 from './Scrn1p2.vue';
 import Scrn1p3 from './Scrn1p3.vue';
 //import App from '../components/App.vue';
+=======
+import { ElForm,ElDivider,ElIcon,ElButton } from 'element-plus';
+import Scrn1p1 from './Scrn1p1.vue';
+import Scrn1p2 from './Scrn1p2.vue';
+import Scrn1p3 from './Scrn1p3.vue';
+import App from '../components/App.vue';
+>>>>>>> 90919639b47510260a8647dc76f1730e5f4998c7
 
 export default {
   name: 'Scrn',
@@ -107,6 +119,10 @@ export default {
     Scrn1p1,
     Scrn1p2,
     Scrn1p3,
+<<<<<<< HEAD
+=======
+    App,
+>>>>>>> 90919639b47510260a8647dc76f1730e5f4998c7
     ElForm,
     ElDivider,
     ElIcon,
@@ -151,6 +167,7 @@ export default {
     };
   }
 };
+<<<<<<< HEAD
 const choiceDateError = () => {
   ElNotification({
     title: '日付',
@@ -158,6 +175,8 @@ const choiceDateError = () => {
     type: 'error',
   });
 };
+=======
+>>>>>>> 90919639b47510260a8647dc76f1730e5f4998c7
 </script>
 
 <style scoped>
