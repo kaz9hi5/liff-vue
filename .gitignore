@@ -1,13 +1,12 @@
-# Logs
-logs
-*.log
+# yarn
 yarn-error.log*
 yarn.lock
-
+#
 node_modules
 dist
-.env
+# acme.sh generated *.pem
 .cert/*.pem
-
+# env file
+#.env
 # Editor directories and files
 .DS_Store
