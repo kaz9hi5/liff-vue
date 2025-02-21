@@ -1,7 +1,18 @@
-import 'element-plus/theme-chalk/dark/css-vars.css';
-import 'element-plus/dist/index.css';
+/**
+ * main.ts
+ *
+ * Bootstraps Vuetify and other plugins then mounts the App`
+ */
+// Composables
 import { createApp } from 'vue';
-import ElementPlus from 'element-plus';
-import Scrn from './views/Scrn.vue';
+import App from './App.vue';
 
-createApp(Scrn).use(ElementPlus).mount('#scrn');
+// Plugins
+import { registerPlugins } from './plugins/index';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+const app = createApp(App);
+app.component('FontAwesomeIcon', FontAwesomeIcon); // Register component globally
+registerPlugins(app);
+
+app.mount('#app');

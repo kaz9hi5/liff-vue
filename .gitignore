@@ -1,12 +1,19 @@
-# yarn
+# Logs
+logs
+*.log
+yarn-debug.log*
 yarn-error.log*
-yarn.lock
-#
+
 node_modules
 dist
-# acme.sh generated *.pem
-.cert/*.pem
-# env file
-#.env
+.env
+
 # Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
